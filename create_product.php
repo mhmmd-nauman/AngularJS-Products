@@ -1,11 +1,11 @@
 <?php 
 // get database connection 
 include_once 'config/database.php'; 
+include_once 'objects/product.php';
 $database = new Database(); 
 $db = $database->getConnection();
- 
+
 // instantiate product object
-include_once 'objects/product.php';
 $product = new Product($db);
  
 // get posted data
