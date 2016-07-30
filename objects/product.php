@@ -34,10 +34,9 @@ class Product{
      
     return $stmt;
 }
-}
 
 // create product
-function create(){
+ function create(){
      
     // query to insert record
     $query = "INSERT INTO 
@@ -154,5 +153,5 @@ function delete(){
         return false;
     }
 }
-
+}
 ?>
