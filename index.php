@@ -247,6 +247,7 @@ $(document).ready(function(){
     // initialize modal
     $('.modal-trigger').leanModal();
 });
+// test comments
 </script>
  
 </body>
